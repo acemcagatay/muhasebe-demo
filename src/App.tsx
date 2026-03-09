@@ -235,6 +235,8 @@ export default function App() {
           })
         });
       }
+
+      window.location.reload();
       
       setShowAddModal(false);
       setEditingInvoice(null);
