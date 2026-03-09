@@ -236,11 +236,11 @@ export default function App() {
         });
       }
 
-      window.location.reload();
-      
-      setShowAddModal(false);
-      setEditingInvoice(null);
-      setEditingPrepayment(null);
+   window.location.reload();
+
+setShowAddModal(false);
+setEditingInvoice(null);
+setEditingPrepayment(null);
       setFormData({
         title: '',
         amount: '',
