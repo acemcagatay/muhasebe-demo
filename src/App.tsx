@@ -30,6 +30,7 @@ import { format } from 'date-fns';
 import { tr } from 'date-fns/locale';
 import { cn } from './lib/utils';
 import { Invoice, Expense, Summary, Prepayment } from './types';
+import { supabase } from "./supabase";
 
 const COLORS = ['#10b981', '#ef4444', '#f59e0b', '#3b82f6'];
 
